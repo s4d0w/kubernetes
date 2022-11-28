@@ -1,0 +1,6 @@
+---
+- name: vimrc file configuration
+  import_playbook: vimrc.yml
+
+- name: 
+  import_playbook: servicecheck.yml

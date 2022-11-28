@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: web2
+    tier: front-tier
+  name: web2
+spec:
+  containers:
+  - image: nginx
+    name: web2
+    ports:
+    - containerPort: 80
